@@ -1,0 +1,212 @@
+[
+  {
+    "question": "What does HTML stand for and what is its purpose?",
+    "choices": [
+      "HTML stands for HyperText Markup Language, and it is used to structure and define content on web pages.",
+      "HTML stands for High-level Machine Language, and it creates compiled executable programs.",
+      "HTML stands for HyperText Markdown Language, and it is used for styling web pages.",
+      "HTML stands for Hyperlink Machine Language, and it is a programming language for server-side logic."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which statement about HTML is true?",
+    "choices": [
+      "HTML is not a programming or scripting language; it is a markup language used to define the structure of web content.",
+      "HTML can perform logical operations like loops and conditions on its own.",
+      "HTML is a scripting language like JavaScript that runs in the browser.",
+      "HTML files must be compiled into binary before a browser can display them."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which of the following is a self-closing HTML tag that does not require a separate closing tag?",
+    "choices": [
+      "<img>",
+      "<p>",
+      "<div>",
+      "<section>"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Consider two HTML snippets: A. <p><i>This text is <b>bold</b> and italic</i></p>  B. <p><i>This text is <b>bold</i> and italic</b></p>. Which is correctly nested?",
+    "choices": [
+      "Only snippet A",
+      "Only snippet B",
+      "Both A and B",
+      "Neither A nor B"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which HTML element represents the root of an HTML document?",
+    "choices": [
+      "<html>",
+      "<head>",
+      "<body>",
+      "<!DOCTYPE html>"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does the <br> tag do?",
+    "choices": [
+      "Inserts a line break without starting a new paragraph.",
+      "Makes text bold.",
+      "Creates a horizontal rule.",
+      "Starts a new paragraph with a blank line."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is true about HTML heading tags?",
+    "choices": [
+      "<h1> is most important; <h6> is least important.",
+      "<h6> is larger than <h1>.",
+      "All heading tags render the same size by default.",
+      "Browsers treat <h1> and <h4> identically."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which attribute can be added to a heading tag to center-align its text?",
+    "choices": [
+      "ALIGN (e.g., align=\"center\")",
+      "CENTER",
+      "text-align",
+      "style=\"center\""
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "How do you write an HTML comment?",
+    "choices": [
+      "<!-- This is a comment -->",
+      "// This is a comment",
+      "/* This is a comment */",
+      "<comment>This is a comment</comment>"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Purpose of ALT on <img>?",
+    "choices": [
+      "Alternative text for accessibility and fallback.",
+      "Specify file size.",
+      "Link to alternate image.",
+      "Add a border."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Open a link in a new tab with anchor tag using:",
+    "choices": [
+      "target=\"_blank\"",
+      "newtab=\"true\"",
+      "open=\"new\"",
+      "window=\"new\""
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Numbered list in HTML uses:",
+    "choices": [
+      "<ol> with <li> items",
+      "<ul> with <li> items",
+      "<dl> with <dt>/<dd>",
+      "<list> tag"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Key difference between <div> and <span>?",
+    "choices": [
+      "div is block-level; span is inline.",
+      "div can only contain text; span can contain blocks.",
+      "div is bold by default; span is italic.",
+      "No difference."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which element collects user input and typically includes action/method?",
+    "choices": [
+      "<form>",
+      "<input>",
+      "<button>",
+      "<fieldset>"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Form action attribute specifies:",
+    "choices": [
+      "The URL that processes the submission.",
+      "The HTTP method used.",
+      "That HTML5 validation is enforced.",
+      "The CSS class."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "GET vs POST key difference:",
+    "choices": [
+      "GET appends data to URL; POST sends in body.",
+      "GET encrypts by default; POST is plain.",
+      "GET unlimited; POST is small.",
+      "GET cannot be cached."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Built-in email validation input type:",
+    "choices": [
+      "<input type=\"email\">",
+      "<input type=\"text\">",
+      "<input type=\"password\">",
+      "<input type=\"url\">"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Single-choice selection input:",
+    "choices": [
+      "<input type=\"radio\"> with same name",
+      "<input type=\"checkbox\">",
+      "<select multiple>",
+      "Any input type"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Tags for table row and cell:",
+    "choices": [
+      "<tr> and <td>",
+      "<table> and <cell>",
+      "<th> and <tr>",
+      "<row> and <col>"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Add border to table without CSS:",
+    "choices": [
+      "<table border=\"1\">",
+      "Wrap with <border>",
+      "Not possible",
+      "Add <br> after rows"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Semantic HTML5 element:",
+    "choices": [
+      "<section>",
+      "<div>",
+      "<span>",
+      "<font>"
+    ],
+    "answerIndex": 0
+  }
+]

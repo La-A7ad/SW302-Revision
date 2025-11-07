@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which of the following best describes the role of a User Interface (UI)?",
+    "choices": [
+      "It is the physical hardware components of a device.",
+      "It is the backend logic and database of an application.",
+      "It is the visual and interactive part of an application that a user interacts with.",
+      "It refers to the overall experience and satisfaction of a user."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "UI vs UX: Which statement is correct about their differences?",
+    "choices": [
+      "UI design is about how a product works, and UX design is about how it looks.",
+      "UI deals with user experience, and UX deals with user interfaces.",
+      "UI design focuses on the look and feel of a product, while UX design focuses on the overall experience of using the product.",
+      "UI (User Interface) and UX (User Experience) are identical terms."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is UI Development primarily concerned with?",
+    "choices": [
+      "Building the interactive visual elements of software that users see and interact with.",
+      "Designing the database schemas for applications.",
+      "Implementing server-side algorithms and logic.",
+      "Creating hardware interfaces for computer systems."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which technology is typically used for developing the UI of an Android mobile app?",
+    "choices": [
+      "Java (using Android SDK)",
+      "HTML and CSS",
+      "React.js (web framework)",
+      "WPF (Windows Presentation Foundation)"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "The UI acts as a bridge between the user and the system. What does this imply?",
+    "choices": [
+      "The UI mediates user interactions to the system and displays system outputs back to the user.",
+      "The user directly manipulates the system's internal code without a user interface.",
+      "The system’s results are not visible to the user through the UI.",
+      "UI is only a static decoration and does not interact with the system."
+    ],
+    "answerIndex": 0
+  }
+]

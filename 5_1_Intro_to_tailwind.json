@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What does 'utility-first' in Tailwind mean?",
+    "choices": [
+      "Small single-purpose classes used directly in HTML.",
+      "Pre-designed components provided.",
+      "Needs JavaScript utilities to work.",
+      "Styles inline automatically."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Tailwind utility example:",
+    "choices": [
+      "bg-blue-500",
+      ".container { color: blue; }",
+      "btn-primary",
+      "#main-content"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Why avoid lots of inline styles vs Tailwind?",
+    "choices": [
+      "Inline styles lack reuse/responsiveness; Tailwind utilities are reusable and responsive.",
+      "Inline styles don't work in modern browsers.",
+      "Inline styles always override CSS unpredictably.",
+      "Tailwind converts inline styles automatically."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "How Tailwind keeps CSS small?",
+    "choices": [
+      "Purges unused utilities by scanning your files.",
+      "Minifies class names.",
+      "Uses inline styles instead of CSS.",
+      "Relies on browser defaults."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Apply hover in Tailwind:",
+    "choices": [
+      "Prefix with hover: (e.g., hover:bg-blue-700).",
+      "Tailwind lacks hover; write custom CSS.",
+      "Use :hover inside style attribute.",
+      "Use JS onhover handlers."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Meaning of md:text-lg:",
+    "choices": [
+      "text-lg on screens md and up.",
+      "Hide text on md.",
+      "Only on mobile.",
+      "Medium and large at all times."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Why prefer CLI build over CDN for large projects?",
+    "choices": [
+      "Build includes only used classes and allows customization; CDN ships everything.",
+      "No benefit; CDN is better.",
+      "CLI writes HTML automatically.",
+      "CDN is disallowed in prod."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Purpose of @tailwind base/components/utilities in input.css:",
+    "choices": [
+      "Import Tailwind reset, components, utilities in that order.",
+      "Conditional includes per page.",
+      "Define responsive breakpoints.",
+      "Comment out generated CSS."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "tailwind.config.js content property does:",
+    "choices": [
+      "Tells Tailwind where to scan for classes to include/purge.",
+      "Sets text content to inject.",
+      "Lists all utilities you will use.",
+      "Configures Tailwind CDN."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "CDN drawback in production:",
+    "choices": [
+      "Loads entire library; unused CSS not removed -> larger size.",
+      "Won't work offline.",
+      "No customization possible.",
+      "Needs Node server."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Quick try Tailwind without build tools:",
+    "choices": [
+      "Use CDN `<script src=\"https://cdn.tailwindcss.com\"></script>`.",
+      "Not possible without npm.",
+      "Download tailwind.js and script tag.",
+      "Write Tailwind classes in <style>."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Init Tailwind config command:",
+    "choices": [
+      "npx tailwindcss init",
+      "tailwind start",
+      "npm init tailwind.config",
+      "npx tailwind init --full"
+    ],
+    "answerIndex": 0
+  }
+]

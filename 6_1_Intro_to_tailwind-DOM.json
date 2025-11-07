@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Add custom color without losing defaults:",
+    "choices": [
+      "Use theme.extend.colors in tailwind.config.js.",
+      "Replace defaults entirely.",
+      "Edit Tailwind source CSS.",
+      "Not possible."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Tailwind layers order:",
+    "choices": [
+      "Base -> Components -> Utilities.",
+      "Reset -> Normalize -> Themes.",
+      "Header -> Body -> Footer.",
+      "Variables -> Mixins -> Functions."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "DOM best description:",
+    "choices": [
+      "In-memory tree of page structure that scripts can modify.",
+      "Guidelines for HTML structure.",
+      "A programming language.",
+      "A website file database."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Is DOM part of HTML or JS?",
+    "choices": [
+      "No; it's a browser API used by JS, separate from HTML/JS specs.",
+      "Yes; defined in HTML spec.",
+      "Yes; built into JS language.",
+      "It's part of CSS."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Why DOM is critical:",
+    "choices": [
+      "Connects HTML, CSS, JS enabling interactivity.",
+      "Without DOM, CSS can't apply.",
+      "Allows multi-user editing.",
+      "Ensures nice indentation."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Common DOM node types:",
+    "choices": [
+      "Document, Element, Text, Attribute.",
+      "HTML, CSS, JS only.",
+      "Only parent and child.",
+      "Head and body only."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Root node of DOM hierarchy:",
+    "choices": [
+      "Document node.",
+      "<html> element node.",
+      "window object.",
+      "<body> element node."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "How is text represented in DOM?",
+    "choices": [
+      "As separate text nodes under elements.",
+      "Part of element node only.",
+      "As attributes.",
+      "Ignored by browser."
+    ],
+    "answerIndex": 0
+  }
+]

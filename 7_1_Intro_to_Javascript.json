@@ -1,0 +1,172 @@
+[
+  {
+    "question": "Which is true about JavaScript in the browser?",
+    "choices": [
+      "Client-side, dynamic, loosely typed, no compile step.",
+      "Runs only on server for DB.",
+      "Must be compiled to machine code first.",
+      "Strongly typed; types required."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What can JavaScript do on a page?",
+    "choices": [
+      "Change content/style dynamically; interactivity.",
+      "Define structure like HTML.",
+      "Apply styles like CSS.",
+      "Connect directly to DB."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Single-line comment syntax:",
+    "choices": [
+      "// comment",
+      "# comment",
+      "/* comment */",
+      "<!-- comment -->"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Include external JS file script.js:",
+    "choices": [
+      "<script src=\"script.js\"></script>",
+      "<script href=\"script.js\"></script>",
+      "<include js=\"script.js\">",
+      "<script link=\"script.js\"></script>"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Block-scoped variable keyword:",
+    "choices": [
+      "let",
+      "var",
+      "function",
+      "scope"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Primitive type example:",
+    "choices": [
+      "Boolean",
+      "Array",
+      "Function",
+      "DOM Element"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "array.push(value) does:",
+    "choices": [
+      "Adds to end and returns new length.",
+      "Adds to beginning.",
+      "Removes last element.",
+      "Returns first element."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "== vs === in JS:",
+    "choices": [
+      "=== strict (value+type); == coerces types.",
+      "== numbers; === strings.",
+      "=== coerces; == doesn't.",
+      "No difference."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Output of console.log(x); var x = 5;",
+    "choices": [
+      "undefined (declaration hoisted, assignment later).",
+      "ReferenceError.",
+      "5",
+      "null"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Correct if/else syntax:",
+    "choices": [
+      "if (condition) { ... } else { ... }",
+      "if condition then { ... } else { ... }",
+      "if (condition): { ... } elif { ... }",
+      "if { condition } { ... } else { ... }"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Loop that executes body at least once:",
+    "choices": [
+      "do...while",
+      "for",
+      "while",
+      "for...of"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Function declaration for myFunction:",
+    "choices": [
+      "function myFunction() { }",
+      "def myFunction() { }",
+      "function: myFunction { }",
+      "create function myFunction() { }"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Arrow function sum of a and b:",
+    "choices": [
+      "(a,b)=>a+b",
+      "(a,b)=>{ return a+b }",
+      "a, b => { a + b }",
+      "function => (a,b){ return a+b }"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Key var vs let difference:",
+    "choices": [
+      "var is function-scoped/hoisted; let is block-scoped with TDZ.",
+      "No difference.",
+      "var can't be redeclared; let can.",
+      "let hoisted; var not hoisted."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Hoisting means:",
+    "choices": [
+      "Declarations moved to top of scope before execution.",
+      "Optimizing API calls.",
+      "Attaching event handler.",
+      "Throwing when used before declaration."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Reassigning a const variable results in:",
+    "choices": [
+      "TypeError at runtime.",
+      "Silent no-op.",
+      "Works if same type.",
+      "Auto-converts to let."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "textContent vs innerText with hidden span:",
+    "choices": [
+      "textContent includes hidden; innerText excludes.",
+      "Both include hidden.",
+      "textContent excludes; innerText includes.",
+      "Both exclude hidden."
+    ],
+    "answerIndex": 0
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Selector `div p` targets:",
+    "choices": [
+      "All <p> inside a <div>.",
+      "All <div> and <p>.",
+      "First <p> after each <div>.",
+      "<p> with class/id 'div'."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "CSS pseudo-class example:",
+    "choices": [
+      "a:hover",
+      ".hover",
+      "<p class=\"hover\">",
+      "p:hovered"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Select all text inputs with CSS:",
+    "choices": [
+      "input[type=\"text\"]",
+      "input.text",
+      "input::text",
+      "input[value=text]"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which property is inherited by default?",
+    "choices": [
+      "color",
+      "margin",
+      "border",
+      "background-image"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Box model from inside out:",
+    "choices": [
+      "Content -> Padding -> Border -> Margin",
+      "Content -> Border -> Padding -> Margin",
+      "Margin -> Border -> Padding -> Content",
+      "Padding -> Content -> Border -> Margin"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Padding affects:",
+    "choices": [
+      "Space between content and border.",
+      "Space outside border.",
+      "Only top/bottom.",
+      "Line spacing within paragraph."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Rounded corners property:",
+    "choices": [
+      "border-radius",
+      "corner-radius",
+      "border-corner",
+      "round-border"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Relative length unit:",
+    "choices": [
+      "em",
+      "cm",
+      "px",
+      "in"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "rem is relative to:",
+    "choices": [
+      "Root (html) font size.",
+      "Parent font size.",
+      "Viewport width.",
+      "Default margin."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Parent font-size 20px; child 2em -> child size:",
+    "choices": [
+      "40px",
+      "2px",
+      "20px",
+      "Still 20px; em fixed."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Italic text CSS:",
+    "choices": [
+      "font-style: italic;",
+      "font-weight: italic;",
+      "text-decoration: italics;",
+      "font-variant: italic;"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Small-caps text:",
+    "choices": [
+      "font-variant: small-caps;",
+      "text-transform: uppercase small;",
+      "font-style: small-caps;",
+      "<smallcaps> tag"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Spacing between lines of text:",
+    "choices": [
+      "line-height",
+      "letter-spacing",
+      "text-indent",
+      "word-spacing"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Center-align text:",
+    "choices": [
+      "text-align: center;",
+      "align: center;",
+      "horizontal-align: middle;",
+      "margin: auto;"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Underline text:",
+    "choices": [
+      "text-decoration: underline;",
+      "font-style: underline;",
+      "text-underline: yes;",
+      "border-bottom: underline;"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Valid hex color:",
+    "choices": [
+      "#FFA07A",
+      "#12345",
+      "#ZZZZZZ",
+      "rgb(255,0,0)"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "opacity does:",
+    "choices": [
+      "Sets transparency (0..1).",
+      "Changes brightness.",
+      "Sets text boldness.",
+      "Controls stacking order."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "position:absolute is relative to:",
+    "choices": [
+      "Nearest positioned ancestor; else viewport/document.",
+      "Always top-left of page.",
+      "Next sibling.",
+      "Original normal flow position."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Keep element fixed on scroll:",
+    "choices": [
+      "position: fixed;",
+      "position: absolute;",
+      "float: fixed;",
+      "display: fixed;"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "clear: both means:",
+    "choices": [
+      "Element moves below prior floats.",
+      "Element forbids inner floats.",
+      "Removes previous float.",
+      "Hides floated elements."
+    ],
+    "answerIndex": 0
+  }
+]
