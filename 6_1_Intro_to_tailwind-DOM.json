@@ -78,5 +78,30 @@
       "Ignored by browser."
     ],
     "answerIndex": 0
+  },
+  {
+    "question": "Best modern way to select the first element with class 'card':",
+    "choices": [
+      "document.querySelector('.card')",
+      "document.getElementsByClass('card')[0]",
+      "document.select('.card')",
+      "$('.card')"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Attach a click handler to #saveBtn:",
+    "choices": [
+      "document.getElementById('saveBtn').addEventListener('click', handler)",
+      "onClick('saveBtn', handler)",
+      "document.query('saveBtn').onclick(handler)",
+      "window.click('saveBtn', handler)"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Prevent default form submission inside an event handler:",
+    "choices": ["e.preventDefault()", "return false anywhere", "stopImmediate()", "event.cancel()"],
+    "answerIndex": 0
   }
 ]

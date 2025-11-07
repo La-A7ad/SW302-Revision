@@ -118,5 +118,30 @@
       "npx tailwind init --full"
     ],
     "answerIndex": 0
+  },
+  {
+    "question": "Create a 1-col grid on mobile that becomes 3-cols on md+:",
+    "choices": [
+      "grid grid-cols-1 md:grid-cols-3 gap-4",
+      "flex flex-row md:grid-cols-3",
+      "columns-3 md:columns-1",
+      "grid-cols-3 md:grid-cols-1"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Center a div’s content on both axes using Tailwind:",
+    "choices": [
+      "flex items-center justify-center",
+      "grid justify-items-center",
+      "text-center mx-auto",
+      "place-items-center on <div>"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Hide on mobile, show from md up:",
+    "choices": ["hidden md:block", "md:hidden block", "opacity-0 md:opacity-100", "sr-only md:not-sr-only only"],
+    "answerIndex": 0
   }
 ]

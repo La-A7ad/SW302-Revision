@@ -168,5 +168,35 @@
       "Both exclude hidden."
     ],
     "answerIndex": 0
+  },
+  {
+    "question": "Safely parse possibly invalid JSON:",
+    "choices": [
+      "try { JSON.parse(s) } catch (e) { /* handle */ }",
+      "JSON.parseOrNull(s)",
+      "await JSON.parse(s)",
+      "String.toJSON(s)"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which statement about try/catch is true?",
+    "choices": [
+      "Only code inside try is protected; async promise errors need .catch() or try/await",
+      "It catches all errors globally by default",
+      "It also logs to console automatically",
+      "It prevents finally from running"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "What does `throw new Error('x')` do?",
+    "choices": [
+      "Creates and raises a runtime exception that can be caught",
+      "Logs a warning only",
+      "Ends the process immediately",
+      "Silently returns undefined"
+    ],
+    "answerIndex": 0
   }
 ]

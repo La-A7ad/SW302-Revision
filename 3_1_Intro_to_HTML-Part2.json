@@ -128,5 +128,35 @@
       "ARIA cannot help; must add visible text."
     ],
     "answerIndex": 0
+  },
+  {
+    "question": "Which Web Storage persists across browser restarts?",
+    "choices": ["localStorage", "sessionStorage", "window.name", "history.state"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Geolocation API getCurrentPosition requires:",
+    "choices": [
+      "User permission and success/error callbacks",
+      "A Google Maps API key",
+      "Service Workers",
+      "HTTPS is forbidden"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which element is script-drawable for 2D graphics?",
+    "choices": ["<canvas>", "<svg>", "<map>", "<meter>"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Pick the correct srcset usage for responsive images:",
+    "choices": [
+      "<img src='small.jpg' srcset='medium.jpg 800w, large.jpg 1200w' sizes='(min-width: 800px) 800px, 100vw'>",
+      "<img srcset='small.jpg medium.jpg large.jpg'>",
+      "<img sizes='1200w'>",
+      "<img src='large.jpg' srcset='medium.jpg 800h'>"
+    ],
+    "answerIndex": 0
   }
 ]

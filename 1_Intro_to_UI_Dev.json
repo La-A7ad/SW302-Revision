@@ -48,5 +48,25 @@
       "UI is only a static decoration and does not interact with the system."
     ],
     "answerIndex": 0
+  },
+  {
+    "question": "Which trio best represents the standard web front-end stack?",
+    "choices": ["HTML, CSS, JavaScript", "Java, SQL, PHP", "C#, WPF, MSSQL", "Kotlin, Jetpack, Room"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Pick the correct mapping: Structure → ?, Presentation → ?, Behavior → ?",
+    "choices": [
+      "HTML → structure, CSS → presentation, JS → behavior",
+      "CSS → structure, HTML → presentation, JS → behavior",
+      "JS → structure, CSS → behavior, HTML → presentation",
+      "HTML → behavior, CSS → structure, JS → presentation"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which of these is a web UI library/framework (not a language)?",
+    "choices": ["React", "HTML", "CSS", "JSON"],
+    "answerIndex": 0
   }
 ]

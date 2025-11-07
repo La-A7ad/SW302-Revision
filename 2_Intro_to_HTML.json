@@ -208,5 +208,25 @@
       "<font>"
     ],
     "answerIndex": 0
+  },
+  {
+    "question": "Add native controls to a video element using:",
+    "choices": ["controls", "panel", "ui", "toolbar"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Best semantic for responsive image sources by viewport/breakpoint is:",
+    "choices": [
+      "<picture> with <source media> and an <img> fallback",
+      "<img> only",
+      "CSS background-image only",
+      "Canvas drawing per resize"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Modern autoplay policies typically allow autoplay when:",
+    "choices": ["Video is muted or user has interacted with the page", "The video has loop", "preload=\"auto\" is set", "A poster is provided"],
+    "answerIndex": 0
   }
 ]
