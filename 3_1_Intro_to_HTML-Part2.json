@@ -2,161 +2,171 @@
   {
     "question": "Correct HTML5 DOCTYPE and purpose?",
     "choices": [
-      "<!DOCTYPE html> for standards mode for HTML5.",
       "<!DOCTYPE HTML5> is required for HTML5.",
-      "No doctype needed; browsers detect HTML5.",
-      "Use HTML4 long doctype for HTML5."
+      "<!DOCTYPE html> for standards mode for HTML5.",
+      "Use HTML4 long doctype for HTML5.",
+      "No doctype needed; browsers detect HTML5."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Why include proper DOCTYPE?",
     "choices": [
-      "Avoid quirks mode; render per standards.",
       "To connect external CSS.",
+      "Avoid quirks mode; render per standards.",
       "HTML5 tags won't work otherwise.",
       "Includes polyfills automatically."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Which element denotes page's primary content?",
     "choices": [
-      "<main>",
       "<section>",
+      "<main>",
       "<article>",
       "<aside>"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Tangential/side content element:",
     "choices": [
-      "<aside>",
-      "<nav>",
       "<footer>",
-      "<section>"
+      "<section>",
+      "<nav>",
+      "<aside>"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "question": "What belongs in <nav>?",
     "choices": [
-      "Major navigation links.",
-      "Footer info.",
       "Main article content.",
-      "Unrelated side notes."
+      "Unrelated side notes.",
+      "Footer info.",
+      "Major navigation links."
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "question": "HTML5 email/required field invalid on submit:",
     "choices": [
-      "Browser blocks submit and shows validation message.",
       "Form submits; only server can validate.",
-      "Browser auto-fixes to valid email.",
-      "No feedback without scripts."
+      "Browser blocks submit and shows validation message.",
+      "No feedback without scripts.",
+      "Browser auto-fixes to valid email."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "How can HTML 'validate' if it's not programming?",
     "choices": [
       "Browser enforces behaviors of attributes; engine handles it.",
-      "HTML has hidden scripts per page.",
+      "Those attributes are decorative only.",
       "Sends to W3C server pre-submit.",
-      "Those attributes are decorative only."
+      "HTML has hidden scripts per page."
     ],
     "answerIndex": 0
   },
   {
     "question": "New HTML5 input type example:",
     "choices": [
+      "<input type=\"file\">",
       "<input type=\"date\">",
-      "<input type=\"text5\">",
       "<input type=\"password\">",
-      "<input type=\"file\">"
+      "<input type=\"text5\">"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Persistent client storage surviving browser restarts:",
     "choices": [
-      "localStorage",
-      "sessionStorage",
       "Cookies",
-      "Cache API"
+      "localStorage",
+      "Cache API",
+      "sessionStorage"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "API for getting user location (permission-based):",
     "choices": [
-      "Geolocation API",
+      "GeoIP API",
       "Maps API",
       "Built-in GPS.js",
-      "GeoIP API"
+      "Geolocation API"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "question": "getCurrentPosition success result on allow:",
     "choices": [
-      "Alert shows latitude.",
       "Nothing happens; it's async.",
-      "Alerts not supported.",
-      "Redirects to map app."
+      "Alert shows latitude.",
+      "Redirects to map app.",
+      "Alerts not supported."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Purpose of ARIA attributes:",
     "choices": [
-      "Improve accessibility for assistive tech.",
-      "Improve SEO via hidden keywords.",
+      "Store temporary data for JS.",
       "Enable advanced CSS.",
-      "Store temporary data for JS."
+      "Improve accessibility for assistive tech.",
+      "Improve SEO via hidden keywords."
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "Make icon-only button accessible:",
     "choices": [
       "Add aria-label (e.g., \"Search\").",
-      "Wrap in <label>.",
       "Hidden text with visibility:hidden.",
+      "Wrap in <label>.",
       "ARIA cannot help; must add visible text."
     ],
     "answerIndex": 0
   },
   {
     "question": "Which Web Storage persists across browser restarts?",
-    "choices": ["localStorage", "sessionStorage", "window.name", "history.state"],
-    "answerIndex": 0
+    "choices": [
+      "sessionStorage",
+      "history.state",
+      "localStorage",
+      "window.name"
+    ],
+    "answerIndex": 2
   },
   {
     "question": "Geolocation API getCurrentPosition requires:",
     "choices": [
+      "HTTPS is forbidden",
       "User permission and success/error callbacks",
       "A Google Maps API key",
-      "Service Workers",
-      "HTTPS is forbidden"
+      "Service Workers"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Which element is script-drawable for 2D graphics?",
-    "choices": ["<canvas>", "<svg>", "<map>", "<meter>"],
-    "answerIndex": 0
+    "choices": [
+      "<map>",
+      "<canvas>",
+      "<meter>",
+      "<svg>"
+    ],
+    "answerIndex": 1
   },
   {
     "question": "Pick the correct srcset usage for responsive images:",
     "choices": [
-      "<img src='small.jpg' srcset='medium.jpg 800w, large.jpg 1200w' sizes='(min-width: 800px) 800px, 100vw'>",
+      "<img src='large.jpg' srcset='medium.jpg 800h'>",
       "<img srcset='small.jpg medium.jpg large.jpg'>",
       "<img sizes='1200w'>",
-      "<img src='large.jpg' srcset='medium.jpg 800h'>"
+      "<img src='small.jpg' srcset='medium.jpg 800w, large.jpg 1200w' sizes='(min-width: 800px) 800px, 100vw'>"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   }
 ]
