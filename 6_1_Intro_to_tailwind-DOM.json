@@ -2,112 +2,112 @@
   {
     "question": "Add custom color without losing defaults:",
     "choices": [
-      "Use theme.extend.colors in tailwind.config.js.",
       "Replace defaults entirely.",
+      "Use theme.extend.colors in tailwind.config.js.",
       "Edit Tailwind source CSS.",
       "Not possible."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Tailwind layers order:",
     "choices": [
-      "Base -> Components -> Utilities.",
+      "Variables -> Mixins -> Functions.",
       "Reset -> Normalize -> Themes.",
-      "Header -> Body -> Footer.",
-      "Variables -> Mixins -> Functions."
+      "Base -> Components -> Utilities.",
+      "Header -> Body -> Footer."
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "DOM best description:",
     "choices": [
       "In-memory tree of page structure that scripts can modify.",
-      "Guidelines for HTML structure.",
+      "A website file database.",
       "A programming language.",
-      "A website file database."
+      "Guidelines for HTML structure."
     ],
     "answerIndex": 0
   },
   {
     "question": "Is DOM part of HTML or JS?",
     "choices": [
-      "No; it's a browser API used by JS, separate from HTML/JS specs.",
-      "Yes; defined in HTML spec.",
       "Yes; built into JS language.",
-      "It's part of CSS."
+      "No; it's a browser API used by JS, separate from HTML/JS specs.",
+      "It's part of CSS.",
+      "Yes; defined in HTML spec."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Why DOM is critical:",
     "choices": [
-      "Connects HTML, CSS, JS enabling interactivity.",
-      "Without DOM, CSS can't apply.",
       "Allows multi-user editing.",
-      "Ensures nice indentation."
+      "Ensures nice indentation.",
+      "Connects HTML, CSS, JS enabling interactivity.",
+      "Without DOM, CSS can't apply."
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "Common DOM node types:",
     "choices": [
+      "Only parent and child.",
       "Document, Element, Text, Attribute.",
       "HTML, CSS, JS only.",
-      "Only parent and child.",
       "Head and body only."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Root node of DOM hierarchy:",
     "choices": [
-      "Document node.",
       "<html> element node.",
-      "window object.",
-      "<body> element node."
+      "<body> element node.",
+      "Document node.",
+      "window object."
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "How is text represented in DOM?",
     "choices": [
-      "As separate text nodes under elements.",
-      "Part of element node only.",
       "As attributes.",
-      "Ignored by browser."
+      "As separate text nodes under elements.",
+      "Ignored by browser.",
+      "Part of element node only."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Best modern way to select the first element with class 'card':",
     "choices": [
-      "document.querySelector('.card')",
-      "document.getElementsByClass('card')[0]",
+      "$('.card')",
       "document.select('.card')",
-      "$('.card')"
+      "document.getElementsByClass('card')[0]",
+      "document.querySelector('.card')"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "question": "Attach a click handler to #saveBtn:",
     "choices": [
-      "document.getElementById('saveBtn').addEventListener('click', handler)",
       "onClick('saveBtn', handler)",
-      "document.query('saveBtn').onclick(handler)",
-      "window.click('saveBtn', handler)"
+      "document.getElementById('saveBtn').addEventListener('click', handler)",
+      "window.click('saveBtn', handler)",
+      "document.query('saveBtn').onclick(handler)"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Prevent default form submission inside an event handler:",
     "choices": [
-      "e.preventDefault()",
-      "return false anywhere",
       "stopImmediate()",
+      "return false anywhere",
+      "e.preventDefault()",
       "event.cancel()"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "Select all elements with class 'card' (live NodeList not required) and loop safely:",
@@ -123,8 +123,8 @@
     "question": "Find the closest ancestor <section> of a clicked element 'el':",
     "choices": [
       "el.closest('section')",
-      "el.parentElement('section')",
       "el.find('section','closest')",
+      "el.parentElement('section')",
       "el.parents('section')[0]"
     ],
     "answerIndex": 0
@@ -132,40 +132,40 @@
   {
     "question": "Access data-attr='save' on <button data-action='save'> via:",
     "choices": [
-      "btn.dataset.action",
       "btn.data.action",
       "btn.attr('data-action')",
+      "btn.dataset.action",
       "btn.dataset['data-action']"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "Difference between capturing and bubbling phases:",
     "choices": [
       "Capturing travels down to target; bubbling travels up from target",
       "Both travel down; only bubbling calls listeners",
-      "Capturing is default; bubbling is deprecated",
-      "They are identical in modern browsers"
+      "They are identical in modern browsers",
+      "Capturing is default; bubbling is deprecated"
     ],
     "answerIndex": 0
   },
   {
     "question": "Stop other handlers on the same element in the same phase:",
     "choices": [
-      "event.stopImmediatePropagation()",
       "event.stopPropagation()",
-      "event.preventDefault()",
-      "return false"
+      "event.stopImmediatePropagation()",
+      "return false",
+      "event.preventDefault()"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Prevent form submission in a submit handler:",
     "choices": [
       "e.preventDefault()",
+      "event.cancel()",
       "e.stopPropagation()",
-      "return false always works",
-      "event.cancel()"
+      "return false always works"
     ],
     "answerIndex": 0
   },
@@ -173,90 +173,90 @@
     "question": "Event delegation: handle clicks on .item within #list efficiently:",
     "choices": [
       "list.addEventListener('click', e=>{ if(e.target.closest('.item')) {...} })",
-      "Attach click to every .item individually",
       "Use window.onclick only",
-      "Use capture=true on each .item"
+      "Use capture=true on each .item",
+      "Attach click to every .item individually"
     ],
     "answerIndex": 0
   },
   {
     "question": "DOMContentLoaded vs load:",
     "choices": [
+      "They are deprecated",
       "DOMContentLoaded fires when DOM is parsed; load waits for images/styles too",
       "Both fire after all resources load",
-      "load fires before DOMContentLoaded",
-      "They are deprecated"
+      "load fires before DOMContentLoaded"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Best event for reacting to each keystroke in an <input>:",
     "choices": [
-      "input",
-      "keydown",
       "keyup",
-      "change"
+      "input",
+      "change",
+      "keydown"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Force toggle to ON regardless of current state:",
     "choices": [
       "el.classList.toggle('active', true)",
-      "el.classList.toggle('active') twice",
+      "el.toggleClass('active',true)",
       "el.className += ' active' always",
-      "el.toggleClass('active',true)"
+      "el.classList.toggle('active') twice"
     ],
     "answerIndex": 0
   },
   {
     "question": "Batch DOM insertions efficiently for 1000 items:",
     "choices": [
-      "Use DocumentFragment then append once",
-      "Append each child directly in a loop",
       "Use innerHTML += in loop",
-      "Use setTimeout per append"
+      "Use setTimeout per append",
+      "Use DocumentFragment then append once",
+      "Append each child directly in a loop"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "Tailwind: make a square thumbnail area from its width:",
     "choices": [
+      "ratio-1-1",
       "aspect-square",
       "h-[w]",
-      "square:1",
-      "ratio-1-1"
+      "square:1"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Hide element visually but keep it accessible to screen readers:",
     "choices": [
-      "sr-only",
       "hidden",
+      "invisible",
       "opacity-0",
-      "invisible"
+      "sr-only"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "question": "Allow scrolling content within a fixed-height card:",
     "choices": [
       "overflow-auto",
-      "overflow-clip",
       "scroll-auto",
-      "no-scroll"
+      "no-scroll",
+      "overflow-clip"
     ],
     "answerIndex": 0
   },
   {
     "question": "Responsive order utilities example (move to top on md+):",
     "choices": [
-      "order-2 md:order-1",
-      "md:order-first order-last",
+      "order-top md:order-0",
       "order-first md:order-last (reversed)",
-      "order-top md:order-0"
+      "md:order-first order-last",
+      "order-2 md:order-1"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   }
 ]

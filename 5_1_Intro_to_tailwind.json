@@ -4,8 +4,8 @@
     "choices": [
       "Small single-purpose classes used directly in HTML.",
       "Pre-designed components provided.",
-      "Needs JavaScript utilities to work.",
-      "Styles inline automatically."
+      "Styles inline automatically.",
+      "Needs JavaScript utilities to work."
     ],
     "answerIndex": 0
   },
@@ -13,38 +13,38 @@
     "question": "Tailwind utility example:",
     "choices": [
       "bg-blue-500",
-      ".container { color: blue; }",
+      "#main-content",
       "btn-primary",
-      "#main-content"
+      ".container { color: blue; }"
     ],
     "answerIndex": 0
   },
   {
     "question": "Why avoid lots of inline styles vs Tailwind?",
     "choices": [
-      "Inline styles lack reuse/responsiveness; Tailwind utilities are reusable and responsive.",
       "Inline styles don't work in modern browsers.",
       "Inline styles always override CSS unpredictably.",
+      "Inline styles lack reuse/responsiveness; Tailwind utilities are reusable and responsive.",
       "Tailwind converts inline styles automatically."
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "How Tailwind keeps CSS small?",
     "choices": [
-      "Purges unused utilities by scanning your files.",
-      "Minifies class names.",
       "Uses inline styles instead of CSS.",
-      "Relies on browser defaults."
+      "Purges unused utilities by scanning your files.",
+      "Relies on browser defaults.",
+      "Minifies class names."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Apply hover in Tailwind:",
     "choices": [
       "Prefix with hover: (e.g., hover:bg-blue-700).",
-      "Tailwind lacks hover; write custom CSS.",
       "Use :hover inside style attribute.",
+      "Tailwind lacks hover; write custom CSS.",
       "Use JS onhover handlers."
     ],
     "answerIndex": 0
@@ -52,12 +52,12 @@
   {
     "question": "Meaning of md:text-lg:",
     "choices": [
-      "text-lg on screens md and up.",
-      "Hide text on md.",
+      "Medium and large at all times.",
       "Only on mobile.",
-      "Medium and large at all times."
+      "Hide text on md.",
+      "text-lg on screens md and up."
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "question": "Why prefer CLI build over CDN for large projects?",
@@ -73,75 +73,80 @@
     "question": "Purpose of @tailwind base/components/utilities in input.css:",
     "choices": [
       "Import Tailwind reset, components, utilities in that order.",
-      "Conditional includes per page.",
       "Define responsive breakpoints.",
-      "Comment out generated CSS."
+      "Comment out generated CSS.",
+      "Conditional includes per page."
     ],
     "answerIndex": 0
   },
   {
     "question": "tailwind.config.js content property does:",
     "choices": [
-      "Tells Tailwind where to scan for classes to include/purge.",
-      "Sets text content to inject.",
       "Lists all utilities you will use.",
-      "Configures Tailwind CDN."
+      "Sets text content to inject.",
+      "Configures Tailwind CDN.",
+      "Tells Tailwind where to scan for classes to include/purge."
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "question": "CDN drawback in production:",
     "choices": [
       "Loads entire library; unused CSS not removed -> larger size.",
-      "Won't work offline.",
+      "Needs Node server.",
       "No customization possible.",
-      "Needs Node server."
+      "Won't work offline."
     ],
     "answerIndex": 0
   },
   {
     "question": "Quick try Tailwind without build tools:",
     "choices": [
-      "Use CDN `<script src=\"https://cdn.tailwindcss.com\"></script>`.",
       "Not possible without npm.",
+      "Use CDN `<script src=\"https://cdn.tailwindcss.com\"></script>`.",
       "Download tailwind.js and script tag.",
       "Write Tailwind classes in <style>."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Init Tailwind config command:",
     "choices": [
+      "npm init tailwind.config",
       "npx tailwindcss init",
       "tailwind start",
-      "npm init tailwind.config",
       "npx tailwind init --full"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Create a 1-col grid on mobile that becomes 3-cols on md+:",
     "choices": [
-      "grid grid-cols-1 md:grid-cols-3 gap-4",
+      "grid-cols-3 md:grid-cols-1",
       "flex flex-row md:grid-cols-3",
-      "columns-3 md:columns-1",
-      "grid-cols-3 md:grid-cols-1"
+      "grid grid-cols-1 md:grid-cols-3 gap-4",
+      "columns-3 md:columns-1"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "Center a div’s content on both axes using Tailwind:",
     "choices": [
-      "flex items-center justify-center",
       "grid justify-items-center",
+      "flex items-center justify-center",
       "text-center mx-auto",
       "place-items-center on <div>"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Hide on mobile, show from md up:",
-    "choices": ["hidden md:block", "md:hidden block", "opacity-0 md:opacity-100", "sr-only md:not-sr-only only"],
-    "answerIndex": 0
+    "choices": [
+      "opacity-0 md:opacity-100",
+      "hidden md:block",
+      "sr-only md:not-sr-only only",
+      "md:hidden block"
+    ],
+    "answerIndex": 1
   }
 ]

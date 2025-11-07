@@ -2,29 +2,29 @@
   {
     "question": "Benefit of CSS with HTML?",
     "choices": [
+      "HTML can't display without CSS.",
       "Separates style from content; easier maintenance/reuse and faster pages.",
       "Automatically makes site responsive.",
-      "HTML can't display without CSS.",
       "Guarantees identical look across browsers."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Apply site-wide CSS correctly:",
     "choices": [
-      "Link external CSS with <link rel=\"stylesheet\" href=\"styles.css\"> in <head>.",
-      "Use <css> tag in body.",
       "Inline styles only.",
-      "Use <script> to include .css."
+      "Link external CSS with <link rel=\"stylesheet\" href=\"styles.css\"> in <head>.",
+      "Use <script> to include .css.",
+      "Use <css> tag in body."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Parts of a CSS rule:",
     "choices": [
       "Selector and declaration (property + value).",
-      "HTML tag + JavaScript function.",
       "Property + value only.",
+      "HTML tag + JavaScript function.",
       "Opener, content, closer."
     ],
     "answerIndex": 0
@@ -42,90 +42,90 @@
   {
     "question": "Selector for unique id:",
     "choices": [
-      "#idName",
       " .idName",
-      ". Write id name directly",
-      "Pseudo-class with id"
+      "#idName",
+      "Pseudo-class with id",
+      ". Write id name directly"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "True about id vs class:",
     "choices": [
       "id is unique and higher specificity; class can be reused.",
-      "id can be reused; class is unique.",
       "classes outrank ids.",
-      "Must use id; classes don't apply."
+      "Must use id; classes don't apply.",
+      "id can be reused; class is unique."
     ],
     "answerIndex": 0
   },
   {
     "question": "Issue with duplicate ids:",
     "choices": [
-      "getElementById finds first only; harms scripts/accessibility.",
-      "Browsers apply styles unpredictably breaking page load.",
       "Browser blocks page load.",
-      "No issue; common practice."
+      "getElementById finds first only; harms scripts/accessibility.",
+      "No issue; common practice.",
+      "Browsers apply styles unpredictably breaking page load."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Meaning of 'cascading' in CSS:",
     "choices": [
-      "How browser resolves conflicts via origin, specificity, order.",
-      "Child elements inherit all styles.",
       "Files must be in waterfall order.",
-      "Layout with overlapping elements."
+      "How browser resolves conflicts via origin, specificity, order.",
+      "Layout with overlapping elements.",
+      "Child elements inherit all styles."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "question": "Given p, .intro, #main rules; <p id=\"main\" class=\"intro\">: color?",
     "choices": [
-      "Red (#main has higher specificity).",
       "Green (class overrides id).",
       "Blue (first rule wins).",
+      "Red (#main has higher specificity).",
       "Mix of green and red."
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "Highest specificity normally (no !important):",
     "choices": [
       "Inline style",
-      "ID selector",
       "Class selector",
-      "Tag selector"
+      "Tag selector",
+      "ID selector"
     ],
     "answerIndex": 0
   },
   {
     "question": "Effect of !important:",
     "choices": [
-      "Forces rule to override conflicts (except equal-important with higher/equal specificity).",
-      "Makes rule global to all elements.",
       "Needed for old browsers.",
+      "Makes rule global to all elements.",
+      "Forces rule to override conflicts (except equal-important with higher/equal specificity).",
       "Makes property inherited."
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "Two equal-specificity rules conflict; which applies?",
     "choices": [
-      "Later one in CSS wins.",
       "Earlier one wins.",
       "Both blend.",
+      "Later one in CSS wins.",
       "Neither applies."
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "question": "p#note.highlight beats others because:",
     "choices": [
       "Highest specificity targeting that exact element.",
       "ID overrides all others.",
-      "Class overrides tag.",
-      "First rule wins."
+      "First rule wins.",
+      "Class overrides tag."
     ],
     "answerIndex": 0
   }
