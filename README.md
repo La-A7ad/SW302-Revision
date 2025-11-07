@@ -21,14 +21,3 @@ python -m http.server 5500
 
 **VS Code**: use the Live Server extension and open `index.html`.
 
-## Init a Git repo
-```bash
-cd ui-dev-mcq-site
-git init
-git add .
-git commit -m "Initial commit: UI Dev MCQ site"
-# optional
-git branch -M main
-git remote add origin <YOUR_REPO_URL>
-git push -u origin main
-```
