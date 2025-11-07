@@ -101,7 +101,162 @@
   },
   {
     "question": "Prevent default form submission inside an event handler:",
-    "choices": ["e.preventDefault()", "return false anywhere", "stopImmediate()", "event.cancel()"],
+    "choices": [
+      "e.preventDefault()",
+      "return false anywhere",
+      "stopImmediate()",
+      "event.cancel()"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Select all elements with class 'card' (live NodeList not required) and loop safely:",
+    "choices": [
+      "document.querySelectorAll('.card') and for...of",
+      "document.getElementsByClassName('card') and for...in",
+      "$('.card') and for (i in ... )",
+      "document.selectAll('.card') and foreach"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Find the closest ancestor <section> of a clicked element 'el':",
+    "choices": [
+      "el.closest('section')",
+      "el.parentElement('section')",
+      "el.find('section','closest')",
+      "el.parents('section')[0]"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Access data-attr='save' on <button data-action='save'> via:",
+    "choices": [
+      "btn.dataset.action",
+      "btn.data.action",
+      "btn.attr('data-action')",
+      "btn.dataset['data-action']"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Difference between capturing and bubbling phases:",
+    "choices": [
+      "Capturing travels down to target; bubbling travels up from target",
+      "Both travel down; only bubbling calls listeners",
+      "Capturing is default; bubbling is deprecated",
+      "They are identical in modern browsers"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Stop other handlers on the same element in the same phase:",
+    "choices": [
+      "event.stopImmediatePropagation()",
+      "event.stopPropagation()",
+      "event.preventDefault()",
+      "return false"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Prevent form submission in a submit handler:",
+    "choices": [
+      "e.preventDefault()",
+      "e.stopPropagation()",
+      "return false always works",
+      "event.cancel()"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Event delegation: handle clicks on .item within #list efficiently:",
+    "choices": [
+      "list.addEventListener('click', e=>{ if(e.target.closest('.item')) {...} })",
+      "Attach click to every .item individually",
+      "Use window.onclick only",
+      "Use capture=true on each .item"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "DOMContentLoaded vs load:",
+    "choices": [
+      "DOMContentLoaded fires when DOM is parsed; load waits for images/styles too",
+      "Both fire after all resources load",
+      "load fires before DOMContentLoaded",
+      "They are deprecated"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Best event for reacting to each keystroke in an <input>:",
+    "choices": [
+      "input",
+      "keydown",
+      "keyup",
+      "change"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Force toggle to ON regardless of current state:",
+    "choices": [
+      "el.classList.toggle('active', true)",
+      "el.classList.toggle('active') twice",
+      "el.className += ' active' always",
+      "el.toggleClass('active',true)"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Batch DOM insertions efficiently for 1000 items:",
+    "choices": [
+      "Use DocumentFragment then append once",
+      "Append each child directly in a loop",
+      "Use innerHTML += in loop",
+      "Use setTimeout per append"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Tailwind: make a square thumbnail area from its width:",
+    "choices": [
+      "aspect-square",
+      "h-[w]",
+      "square:1",
+      "ratio-1-1"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Hide element visually but keep it accessible to screen readers:",
+    "choices": [
+      "sr-only",
+      "hidden",
+      "opacity-0",
+      "invisible"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Allow scrolling content within a fixed-height card:",
+    "choices": [
+      "overflow-auto",
+      "overflow-clip",
+      "scroll-auto",
+      "no-scroll"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Responsive order utilities example (move to top on md+):",
+    "choices": [
+      "order-2 md:order-1",
+      "md:order-first order-last",
+      "order-first md:order-last (reversed)",
+      "order-top md:order-0"
+    ],
     "answerIndex": 0
   }
 ]

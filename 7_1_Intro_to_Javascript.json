@@ -198,5 +198,105 @@
       "Silently returns undefined"
     ],
     "answerIndex": 0
+  },
+  {
+    "question": "Which are falsy? (pick the single falsy value)",
+    "choices": [
+      "'' (empty string)",
+      "[]",
+      "{}",
+      "'0'"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "typeof null is:",
+    "choices": [
+      "'object'",
+      "'null'",
+      "'undefined'",
+      "'number'"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "NaN === NaN evaluates to:",
+    "choices": [
+      "false",
+      "true",
+      "Throws TypeError",
+      "undefined"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "parseInt('08', 10) returns:",
+    "choices": [
+      "8",
+      "0",
+      "NaN",
+      "'08'"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Array.prototype.map vs forEach:",
+    "choices": [
+      "map returns a new array; forEach returns undefined",
+      "Both return new arrays",
+      "forEach is faster and returns new array",
+      "map mutates original array"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Destructuring with default: const [a=1,b=2] = []; values are:",
+    "choices": [
+      "a=1, b=2",
+      "a=undefined, b=undefined",
+      "a=null, b=null",
+      "a=1, b=undefined"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Spread vs rest: which is rest?",
+    "choices": [
+      "function f(...args){}",
+      "[...arr]",
+      "{...obj}",
+      "new Array(...iter)"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Arrow functions and this-binding:",
+    "choices": [
+      "Arrow functions capture lexical this; they don't have their own this",
+      "Arrow functions have their own dynamic this",
+      "this is always window in arrow functions",
+      "Use bind() to change arrow this"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Order of logs? setTimeout(fn,0); Promise.resolve().then(()=>console.log(2)); console.log(1);",
+    "choices": [
+      "1, 2, (timeout)",
+      "2, 1, (timeout)",
+      "(timeout), 1, 2",
+      "1, (timeout), 2"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Async/await error handling for rejected promise 'p':",
+    "choices": [
+      "try { await p } catch(e) { /* handle */ }",
+      "await p.catch(e=>{}) in non-async",
+      "try { p } catch(e) {} works",
+      "No need; await auto swallows"
+    ],
+    "answerIndex": 0
   }
 ]
