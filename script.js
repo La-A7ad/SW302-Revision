@@ -100,35 +100,41 @@
   }
 
   gradeBtn.addEventListener('click', ()=>{
-    if(!data.length) return;
-    let score=0;
-    const total=data.length;
-    for(let i=0;i<total;i++){
-      const q=data[i];
-      const card=listEl.querySelector('[data-index="'+i+'"]');
-      const rows=card.querySelectorAll('.option');
-      const sel=card.querySelector('input[name="q'+i+'"]:checked');
-      rows.forEach(r=>{ r.classList.remove('correct','wrong'); });
-      if(sel){
-        const chosen=parseInt(sel.value,10);
-        if(chosen===q.answerIndex){
-          rows[chosen].classList.add('correct');
-          score++;
-          setStatus(card,"Correct", true);
-        }else{
-          rows[chosen].classList.add('wrong');
-          rows[q.answerIndex].classList.add('correct');
-          setStatus(card,"Wrong", false);
-        }
-      }else{
+  if(!data.length) return;
+  let score = 0;
+  let answered = 0;
+
+  for (let i = 0; i < data.length; i++) {
+    const q = data[i];
+    const card = listEl.querySelector('[data-index="'+i+'"]');
+    const rows = card.querySelectorAll('.option');
+    const sel = card.querySelector('input[name="q'+i+'"]:checked');
+
+    // clear previous marks
+    rows.forEach(r => r.classList.remove('correct','wrong'));
+    setStatus(card, ""); // clear status line
+
+    if (sel) {
+      answered++;
+      const chosen = parseInt(sel.value, 10);
+      if (chosen === q.answerIndex) {
+        rows[chosen].classList.add('correct');
+        score++;
+        setStatus(card, "Correct", true);
+      } else {
+        rows[chosen].classList.add('wrong');
         rows[q.answerIndex].classList.add('correct');
-        setStatus(card,"Not answered", false);
+        setStatus(card, "Wrong", false);
       }
     }
-    graded=true;
-    liveScore.textContent="Score: "+score+" / "+data.length;
-    gradeBtn.textContent="Re-check";
-  });
+    // IMPORTANT: do nothing if unanswered (no reveal, no status)
+  }
+
+  graded = true;
+  liveScore.textContent = "Score: " + score + " / " + answered + " answered";
+  gradeBtn.textContent = "Re-check";
+});
+
 
   resetBtn.addEventListener('click', ()=>{
     graded=false;
